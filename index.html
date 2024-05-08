@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form__elem">
+            <label for="n">Число котиков</label>
+            <input type="number" id="n" value="3" class="form__input" required>
+        </div>
+        <div class="form__elem">
+            <label for="b">Порция котика</label>
+            <input type="number" id="b" value="2" class="form__input" required>
+        </div>
+        <div class="form__elem">
+            <label for="m">Вместимость миски</label>
+            <input type="number" id="m" value="5" class="form__input" required>
+        </div>
+        <div class="form__elem">
+            <label for="t">Сколько секунд котик ест</label>
+            <input type="number" id="t" value="3" class="form__input" required>
+        </div>
+        <div class="form__elem">
+            <label for="r">Сколько секунд бабушка пополняет миску</label>
+            <input type="number" id="r" value="2" class="form__input" required>
+        </div>
+        <button type="submit" class="form__btn">Запустить</button>
+    </form>
+    <div class="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
